@@ -1,5 +1,5 @@
 import * as d3 from "d3"
-import {jalan,kelurahan,kecamatan,kabupaten,kepadatan} from "../data"
+import {kelurahan,kecamatan,kepadatan} from "../data"
 
 
 
@@ -70,22 +70,6 @@ const map_jakarta = function (id){
         .attr('class','text-title')
         .style('font-size','1.3em')
         .text(`Kepadatan Penduduk DKI Jakarta Berdasarkan Kelurahan`)
-
-    // layer_street
-    //     .selectAll("path")
-    //     .data(jalan.features)
-    //     .enter()
-    //     // .each(d=>{
-    //     //     console.log(d.properties)
-    //     // })
-    //     .append("path")
-    //     .attr( "fill","#ccc" )
-    //     .attr( "fill-opacity", 0 )
-    //     .attr( "stroke", d=>{
-    //         console.log(d.properties.highway)
-    //         return ["primary"].includes(d.properties.highway)?"red":"#333"
-    //     })
-    //     .attr( "d", geoPath);
 
 }
 

@@ -7,7 +7,7 @@ module.exports = {
     },
     output: {
       path: path.resolve(__dirname, "dist"),
-      publicPath: '/',
+      publicPath: '/d3_map_sketches/',
       filename: 'bundle.js'
     },
     devServer: {
